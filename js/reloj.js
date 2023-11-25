@@ -15,3 +15,18 @@ const reloj = ()=>{
   mes = Date.getMonth(),
   anio = Date.getFullYeaDate
 }
+
+//traemos los elementos
+
+const parametroHoras = document.getElementById('horas'),
+parametroAMPM = document.getElementById('ampm'),
+parametroMinutos = document.getElementById('minutos'),
+parametroSegundos = document.getElementById('segundos'),
+parametroDia = document.getElementById('dia'),
+parametroSemana = document.getElementById('diaSemana'),
+parametroMes = document.getElementById('mes'),
+parametroAnio = document.getElementById('anio')
+
+//creamos los dias de la semana 
+
+const semana = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo']
