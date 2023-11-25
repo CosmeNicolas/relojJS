@@ -6,4 +6,11 @@ body{
 
 main{
   flex-grow: 1;
+  background: #ffffff url(/img/escritorio300.jpg) center center/cover no-repeat;
 }
+
+p{
+  font-family: 'Russo One', sans-serif;
+  color: aliceblue;
+}
+
